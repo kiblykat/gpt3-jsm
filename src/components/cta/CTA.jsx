@@ -3,17 +3,15 @@ import './cta.css'
 
 const CTA = () => {
   return (
-    <div className='CTA-container'>
-      <div className='CTA-box'>
-        <div className='CTA-box__text'>
+      <div className='gpt3__cta'>
+        <div className='gpt3__cta-content'>
           <p>Request Early Access to Get Started</p>
           <h4>Register today & start exploring the endless possiblities.</h4>
         </div>
-        <div className='CTA-box__button'>
-          <button>Get Started</button>
+        <div className='gpt3__cta-btn'>
+          <button type='button'>Get Started</button>
         </div>
       </div>
-    </div>
   )
 }
 
