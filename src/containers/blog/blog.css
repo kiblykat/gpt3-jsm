@@ -1,0 +1,13 @@
+.gpt3__blog-container{
+  display:flex;
+  justify-content: center;
+
+}
+
+.gpt3__blog-container_groupA{
+  flex: 0.75;
+}
+
+.gpt3__blog-container_groupB{
+  flex: 1;
+}
