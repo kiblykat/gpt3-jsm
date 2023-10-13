@@ -71,3 +71,34 @@
   margin: 0.5rem 0;
   cursor:pointer;
 }
+
+.gpt3__footer-links{
+  margin-bottom: 5rem;
+}
+
+gpt3__footer-copyright{
+  font-family: var(--font-family);
+  font-size: 12px;
+}
+
+@media screen and (max-width:850px){
+  .gpt3__footer-heading h1{
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .gpt3__footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:1rem;
+    
+    width: 100%;
+    text-align: left;
+  }
+
+  .gpt3__footer-links_div{
+    margin-bottom: 2rem;
+  }
+}
